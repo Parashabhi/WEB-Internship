@@ -1,0 +1,120 @@
+body{
+    
+    margin-left:20%;
+    border-radius: 5px black;
+    border-style:solid;
+    width:65%;
+    height:auto;
+    
+}
+.ribbon {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 14.8%;
+    
+  }
+  .ribbon {
+    --f: .0em; /* control the folded part*/
+    --r: .8em; /* control the ribbon shape */
+    
+    position: absolute;
+   
+    right: calc(-1*var(--f));
+    padding-inline: .25em;
+    line-height: 1.8;
+    background: #e85c9d;
+    color:#e85c9d;
+    border-top: var(--f) solid #0005;
+    border-left: var(--r) solid #0000;
+    clip-path: 
+      polygon(0 100%,100% 100%,100% var(--f),calc(100% - var(--f)) 0,
+        calc(100% - var(--f)) var(--f),0 var(--f),
+        var(--r) calc(50% + var(--f)/2));
+  }
+.CN{
+    margin:auto;
+    width:50%;
+    border:3px solid green;
+    padding:10px;
+
+width: 250px;
+height:35px;
+text-align: center;
+background-color: #FF69B4;
+color: #ffff;
+font-size: 24px;
+font-family: sans-serif;
+border-radius: 5px;
+border-style: hidden;
+}
+.CN-1{
+  margin:auto;
+  width:50%;
+  border:3px solid green;
+  padding:10px;
+
+width: 300px;
+height:25px;
+text-align: center;
+background-color: #FF69B4;
+color: #ffff;
+font-size: 18px;
+font-family: sans-serif;
+border-radius: 5px;
+border-style: hidden;
+}
+.text{
+  
+     text-align: center;
+     font-size:19px;
+     border:3px solid black;
+     border-radius: 5px;
+     border-style: hidden;
+
+}
+.d{
+  width: 25%;
+  margin-left: 38%;
+ 
+  border-bottom-style:dotted;
+  
+}
+img {
+  border-radius: 50%;
+}
+table{
+
+    text-align: center;
+
+}
+.center {
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.ribbon-l{
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 18.5%;
+}
+.ribbon-l {
+  --f: .0em; /* control the folded part*/
+  --r: .8em; /* control the ribbon shape */
+  
+  position: absolute;
+
+  left: calc(-1*var(--f));
+  padding-inline: .25em;
+  line-height: 1.8;
+  background: #e85c9d;
+  color:#e85c9d;
+  border-top: var(--f) solid #0005;
+  border-left: var(--r) solid #0000;
+  clip-path: 
+    polygon(0 100%,100% 100%,100% var(--f),calc(100% - var(--f)) 0,
+      calc(100% - var(--f)) var(--f),0 var(--f),
+      var(--r) calc(50% + var(--f)/2));
+      transform: translate(29.3%) rotate(180deg);
+}
